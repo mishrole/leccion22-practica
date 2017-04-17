@@ -4,13 +4,19 @@ body{
 }
 
 div{
-	width: 22%;
+	width: 55%;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
 }
 
 li{
+	display: inline-block;
 	list-style: none;
-	margin-bottom: 25px;
-	padding: 10px 0 50px 10px;
+	padding: 10px 20px 10px 8px;
+	margin-right: 5px;
 
 }
 
@@ -20,7 +26,6 @@ li{
 
 .li2{
 	background-color: #e44e5a;
-	border: 1px solid black;
 }
 
 .li3{
