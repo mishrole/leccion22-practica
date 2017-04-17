@@ -1,16 +1,17 @@
 body{
 	font-family: 'Muli', sans-serif;
 	font-size: 24px;
-	margin: 0;
 }
 
 div{
-	width: 60%;
+	width: 22%;
 }
 
 li{
 	list-style: none;
-	padding-bottom: 50px;
+	margin-bottom: 25px;
+	padding: 10px 0 50px 10px;
+
 }
 
 .li1, .li3{
