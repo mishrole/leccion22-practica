@@ -2,37 +2,31 @@ body{
 	font-family: 'Muli', sans-serif;
 	font-size: 24px;
 }
-
 div{
-	width: 100%;
-}
-
-ul{
-	margin: 0;
-	padding: 0;
-}
-
-li{
+	border: 2px black solid;
 	display: inline-block;
-	list-style: none;
-	padding: 10px;
-	margin-right: 5px;
+	background-color: gray;
+	margin: 10px 0 10px 10px;
 }
 
-.li1, .li3{
-	background-color: yellow;
+.box{
+	width: 100px;
+	height: 100px;
 }
 
-.li1{
-	padding: 10px 120px 40px 8px;
+.caja1{
+	display: block;
 }
 
-.li2{
-	background-color: #e44e5a;
-	padding: 10px 250px 40px 8px;
+.container{
+	width: 370px;
+	display: block;
 }
 
-.li3{
-	text-transform: uppercase;
-	padding: 10px 10px 40px 8px;
+.container-caja1, .container-caja2, .container-caja3{
+	display: inline-block;
+}
+
+.caja4{
+	display: block;
 }
