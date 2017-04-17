@@ -4,7 +4,7 @@ body{
 }
 
 div{
-	width: 55%;
+	width: 100%;
 }
 
 ul{
@@ -15,19 +15,24 @@ ul{
 li{
 	display: inline-block;
 	list-style: none;
-	padding: 10px 20px 10px 8px;
+	padding: 10px;
 	margin-right: 5px;
-
 }
 
 .li1, .li3{
 	background-color: yellow;
 }
 
+.li1{
+	padding: 10px 120px 40px 8px;
+}
+
 .li2{
 	background-color: #e44e5a;
+	padding: 10px 250px 40px 8px;
 }
 
 .li3{
 	text-transform: uppercase;
+	padding: 10px 10px 40px 8px;
 }
